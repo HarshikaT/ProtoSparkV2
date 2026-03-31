@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProtoSpark — Igniting Young Coders Worldwide</title>
+  <meta name="description" content="ProtoSpark is a free 501(c)(3) nonprofit teaching Scratch coding to children ages 6–13 through international virtual camps." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="home">
+
+  <!-- ───────────────── FLOATING NAV ───────────────── -->
+  <header class="nav-wrapper" role="banner">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="index.html" class="logo" aria-label="ProtoSpark Home">
+        <img src="images/logo.png" alt="ProtoSpark logo" class="logo-img" />
+        <span class="logo-fallback" aria-hidden="true">⚡</span>
+        <span class="logo-text">Proto<span class="logo-accent">Spark</span></span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" data-nav="home">Home</a></li>
+        <li><a href="summer-camp.html" data-nav="camp">Summer Camp</a></li>
+        <li><a href="volunteer.html" data-nav="volunteer">Volunteer</a></li>
+        <li><a href="team.html" data-nav="team">Our Team</a></li>
+      </ul>
+      <a href="summer-camp.html#register" class="btn btn-nav">Register Now →</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile nav panel -->
+  <div class="nav-mobile-panel" id="mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="summer-camp.html">Summer Camp</a>
+    <a href="volunteer.html">Volunteer</a>
+    <a href="team.html">Our Team</a>
+    <a href="summer-camp.html#register" class="btn-nav-mobile">Register Now →</a>
+  </div>
+
+  <!-- ───────────────── HERO ───────────────── -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="grid-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot" aria-hidden="true"></span>
+        501(c)(3) Nonprofit
+      </div>
+
+      <!-- Summer Camp 2026 callout banner -->
+      <div class="hero-camp-callout animate-fade-up">
+        <span class="callout-icon" aria-hidden="true">☀️</span>
+        <div class="callout-text">
+          <strong>Summer Camp 2026 — Registration Open!</strong>
+          <span>August 2–8, 2026 &nbsp;·&nbsp; Virtual via Zoom &nbsp;·&nbsp; Ages 6–13 &nbsp;·&nbsp; FREE</span>
+        </div>
+      </div>
+
+      <h1 class="hero-title animate-fade-up" id="hero-heading">
+        Igniting Young<br />
+        Coders <span class="highlight-purple">Worldwide</span>
+      </h1>
+      <p class="hero-sub animate-fade-up">
+        ProtoSpark is a free international virtual coding camp teaching children ages 6–13 the fundamentals of programming through <strong>Scratch</strong> — no experience needed, no cost, no barriers.
+      </p>
+      <div class="hero-cta animate-fade-up">
+        <a href="summer-camp.html#register" class="btn btn-primary">Register Your Child</a>
+        <a href="volunteer.html" class="btn btn-ghost">Volunteer With Us</a>
+      </div>
+      <div class="hero-stats animate-fade-up">
+        <div class="stat">
+          <span class="stat-num"><span data-count="300" data-suffix="+">300+</span></span>
+          <span class="stat-label">Students Taught</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-num"><span data-count="100" data-suffix="+">100+</span></span>
+          <span class="stat-label">Hours of Teaching</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-num">🌍</span>
+          <span class="stat-label">Multiple Countries</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fake Scratch code window -->
+    <div class="hero-visual" aria-hidden="true">
+      <div class="scratch-window">
+        <div class="window-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="window-title">protospark_project.sb3</span>
+        </div>
+        <div class="window-body">
+          <div class="code-block events">when 🏁 clicked</div>
+          <div class="code-block motion">move <span class="code-val">10</span> steps</div>
+          <div class="code-block control">repeat <span class="code-val">10</span></div>
+          <div class="code-block sound indent">play sound <span class="code-val">Pop</span></div>
+          <div class="code-block looks indent">say <span class="code-val">Hello!</span> for <span class="code-val">2</span> secs</div>
+          <div class="code-block control">end</div>
+          <div class="code-block motion">turn ↻ <span class="code-val">15</span> degrees</div>
+        </div>
+      </div>
+      <div class="floating-tag tag-1">🐱 Sprites</div>
+      <div class="floating-tag tag-2">🎵 Sounds</div>
+      <div class="floating-tag tag-3">⚡ Events</div>
+      <div class="floating-tag tag-4">🌍 Global</div>
+    </div>
+  </section>
+
+  <!-- ───────────────── ABOUT / MISSION ───────────────── -->
+  <section class="about section" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-label">Our Mission</div>
+      <h2 class="section-title" id="about-heading">
+        Code Should Have <span class="highlight-purple">No Borders</span>
+      </h2>
+      <p class="section-sub">
+        ProtoSpark was founded by high school students who believe every child — regardless of country, language, or background — deserves access to quality computer science education. We run free, virtual coding camps that are fun, accessible, and impactful.
+      </p>
+      <div class="about-cards">
+        <div class="about-card card-purple animate-fade-up">
+          <div class="card-icon" aria-hidden="true">🎯</div>
+          <h3>Free &amp; Accessible</h3>
+          <p>100% free for every student, everywhere. We believe cost should never be a barrier to learning to code.</p>
+        </div>
+        <div class="about-card card-indigo animate-fade-up">
+          <div class="card-icon" aria-hidden="true">🌐</div>
+          <h3>International Reach</h3>
+          <p>We organize chapters country-by-country, led by local volunteers who bridge language and time-zone gaps.</p>
+        </div>
+        <div class="about-card card-teal animate-fade-up">
+          <div class="card-icon" aria-hidden="true">🚀</div>
+          <h3>Student-Led</h3>
+          <p>Founded and run entirely by high schoolers — passionate about giving back and building real leadership experience.</p>
+        </div>
+        <div class="about-card card-amber animate-fade-up">
+          <div class="card-icon" aria-hidden="true">💡</div>
+          <h3>Hands-On Learning</h3>
+          <p>Students build real interactive projects using Scratch — games, animations, stories — by the end of camp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── IMPACT STATS ───────────────── -->
+  <section class="impact" aria-labelledby="impact-heading">
+    <div class="impact-inner">
+      <div class="impact-stat animate-fade-up">
+        <div class="impact-num">
+          <span data-count="300" data-suffix="+">300</span><span class="impact-plus">+</span>
+        </div>
+        <div class="impact-label">Students Reached</div>
+      </div>
+      <div class="impact-divider" aria-hidden="true"></div>
+      <div class="impact-stat animate-fade-up">
+        <div class="impact-num">
+          <span data-count="100" data-suffix="+">100</span><span class="impact-plus">+</span>
+        </div>
+        <div class="impact-label">Hours of Instruction</div>
+      </div>
+      <div class="impact-divider" aria-hidden="true"></div>
+      <div class="impact-stat animate-fade-up">
+        <div class="impact-num">🌍</div>
+        <div class="impact-label">Multiple Countries</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── WHAT YOU'LL LEARN TEASER ───────────────── -->
+  <section class="learn-teaser section" aria-labelledby="learn-heading">
+    <div class="container">
+      <div class="section-label">Curriculum Highlights</div>
+      <h2 class="section-title" id="learn-heading">
+        From <span class="highlight-teal">Zero</span> to <span class="highlight-purple">Creator</span>
+      </h2>
+      <p class="section-sub">
+        Our curriculum is built around Scratch — MIT's free visual coding platform. Students start building on Day 1 with no prior experience required.
+      </p>
+      <div class="learn-teaser-grid">
+        <div class="learn-card animate-fade-up">
+          <div class="learn-icon" style="background: var(--purple-light);" aria-hidden="true">⚡</div>
+          <h4>Events &amp; Interaction</h4>
+          <p>Use "when clicked" and "when key pressed" triggers to make projects interactive and responsive.</p>
+        </div>
+        <div class="learn-card animate-fade-up">
+          <div class="learn-icon" style="background: var(--teal-light);" aria-hidden="true">💨</div>
+          <h4>Motion &amp; Animation</h4>
+          <p>Move, turn, glide, and bounce sprites around the stage with motion and animation blocks.</p>
+        </div>
+        <div class="learn-card animate-fade-up">
+          <div class="learn-icon" style="background: var(--amber-light);" aria-hidden="true">🏆</div>
+          <h4>Capstone Project</h4>
+          <p>Students combine everything they've learned to build a unique interactive project — a game, story, or animation — and present it on the final day.</p>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 8px;">
+        <a href="summer-camp.html" class="btn btn-secondary">See Full Camp Details →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── FOOTER ───────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="ProtoSpark Home">
+            <img src="images/logo.png" alt="ProtoSpark logo" class="logo-img" />
+            <span class="logo-fallback" aria-hidden="true">⚡</span>
+            <span class="logo-text">Proto<span class="logo-accent">Spark</span></span>
+          </a>
+          <p>A 501(c)(3) nonprofit teaching Scratch coding to children worldwide — free and accessible for every child.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="TikTok">🎵</a>
+            <a href="#" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h5>Camp</h5>
+            <a href="summer-camp.html">Summer 2026</a>
+            <a href="summer-camp.html#schedule">Schedule</a>
+            <a href="summer-camp.html#register">Register</a>
+          </div>
+          <div class="footer-col">
+            <h5>Organization</h5>
+            <a href="volunteer.html">Volunteer</a>
+            <a href="volunteer.html#apply">Apply</a>
+            <a href="team.html">Our Team</a>
+          </div>
+          <div class="footer-col">
+            <h5>Contact</h5>
+            <a href="mailto:contact@protospark.org">contact@protospark.org</a>
+            <a href="summer-camp.html#faq">FAQ</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 ProtoSpark &nbsp;·&nbsp; 501(c)(3) Nonprofit</span>
+        <span class="mono" style="font-size:0.78rem; opacity:0.4;">Built with ❤️ by high schoolers</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

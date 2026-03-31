@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Volunteer &amp; Leadership — ProtoSpark</title>
+  <meta name="description" content="Become a ProtoSpark regional chapter leader. Lead your country's chapter, teach Scratch to kids, and build real leadership experience." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="volunteer">
+
+  <!-- ───────────────── FLOATING NAV ───────────────── -->
+  <header class="nav-wrapper" role="banner">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="index.html" class="logo" aria-label="ProtoSpark Home">
+        <img src="images/logo.png" alt="ProtoSpark logo" class="logo-img" />
+        <span class="logo-fallback" aria-hidden="true">⚡</span>
+        <span class="logo-text">Proto<span class="logo-accent">Spark</span></span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" data-nav="home">Home</a></li>
+        <li><a href="summer-camp.html" data-nav="camp">Summer Camp</a></li>
+        <li><a href="volunteer.html" data-nav="volunteer">Volunteer</a></li>
+        <li><a href="team.html" data-nav="team">Our Team</a></li>
+      </ul>
+      <a href="summer-camp.html#register" class="btn btn-nav">Register Now →</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile nav panel -->
+  <div class="nav-mobile-panel" id="mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="summer-camp.html">Summer Camp</a>
+    <a href="volunteer.html">Volunteer</a>
+    <a href="team.html">Our Team</a>
+    <a href="summer-camp.html#register" class="btn-nav-mobile">Register Now →</a>
+  </div>
+
+  <!-- ───────────────── PAGE HERO ───────────────── -->
+  <section class="page-hero" aria-labelledby="volunteer-hero-heading">
+    <div class="page-hero-inner">
+      <div class="page-hero-label">Get Involved</div>
+      <h1 id="volunteer-hero-heading">Volunteer &amp; Lead</h1>
+      <p>Join the ProtoSpark leadership team. Become a regional chapter leader, help kids learn to code, and build real nonprofit leadership experience.</p>
+    </div>
+  </section>
+
+  <!-- ───────────────── VOLUNTEER INTRO / CHAPTER SYSTEM ───────────────── -->
+  <section class="volunteer-page section" aria-labelledby="chapters-heading">
+    <div class="container">
+      <div class="section-label">Global Chapter Model</div>
+      <h2 class="section-title" id="chapters-heading">
+        One Chapter. <span class="highlight-purple">Every Country.</span>
+      </h2>
+      <p class="section-sub">
+        ProtoSpark scales internationally through a chapter system — one chapter per country, each led by a local Chapter Leader who bridges language, time zone, and cultural gaps to bring coding education to their community.
+      </p>
+
+      <div class="volunteer-intro-grid">
+        <!-- Left: how chapters work -->
+        <div class="chapter-model animate-slide-left">
+          <h3>// How Chapters Work</h3>
+          <div class="chapter-step">
+            <span class="step-num">01</span>
+            <div>
+              <strong>Local Chapter Leader</strong>
+              <p>A volunteer in each country runs their chapter, recruits local students, and coordinates with the global ProtoSpark team on scheduling and logistics.</p>
+            </div>
+          </div>
+          <div class="chapter-step">
+            <span class="step-num">02</span>
+            <div>
+              <strong>Language Bridging</strong>
+              <p>Chapter leaders translate instructions and check-ins into their local language. Core curriculum materials are prepared before camp begins to support leaders fully.</p>
+            </div>
+          </div>
+          <div class="chapter-step">
+            <span class="step-num">03</span>
+            <div>
+              <strong>Time Zone Management</strong>
+              <p>Sessions are recorded and posted for asynchronous viewing. Live sessions are scheduled to reach the most students globally; chapter leaders run supplemental local sessions where needed.</p>
+            </div>
+          </div>
+          <div class="chapter-step">
+            <span class="step-num">04</span>
+            <div>
+              <strong>Centralized Coordination</strong>
+              <p>All chapters coordinate via shared tools (Discord, Google Workspace). Bi-weekly standups on Tuesdays and Thursdays keep the global team aligned and supported.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: requirements card -->
+        <div class="animate-slide-right">
+          <div class="req-card">
+            <h3>Chapter Leader Requirements</h3>
+            <p class="req-sub">Leadership roles are open to teens and young adults worldwide who want to make a real impact.</p>
+            <ul class="req-list">
+              <li>
+                <span class="req-check" aria-hidden="true">✓</span>
+                Recruit at least 3 students from your country or region
+              </li>
+              <li>
+                <span class="req-check" aria-hidden="true">✓</span>
+                Bilingual: English + your local language
+              </li>
+              <li>
+                <span class="req-check" aria-hidden="true">✓</span>
+                Basic knowledge of Scratch (or genuine willingness to learn before camp)
+              </li>
+              <li>
+                <span class="req-check" aria-hidden="true">✓</span>
+                Attend bi-weekly standups (Tuesdays &amp; Thursdays, 9 PM ET)
+              </li>
+              <li>
+                <span class="req-check" aria-hidden="true">✓</span>
+                Passionate about making CS education accessible to every child
+              </li>
+            </ul>
+            <a href="#apply" class="btn btn-primary">Apply as Chapter Leader →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── LEADERSHIP APPLICATION FORM ───────────────── -->
+  <section class="leadership-form-section section" id="apply" aria-labelledby="apply-heading">
+    <div class="container">
+      <div class="section-label">Leadership Application</div>
+      <h2 class="section-title" id="apply-heading">
+        Apply to Lead a <span class="highlight-purple">Chapter</span>
+      </h2>
+      <p class="section-sub">
+        Tell us about yourself, your background, and why you want to bring ProtoSpark to your community.
+      </p>
+
+      <div class="leadership-form-card animate-fade-up">
+        <div class="leadership-form-header">
+          <h3>Regional Leadership Application</h3>
+          <p>
+            This application is for people interested in becoming a ProtoSpark regional chapter leader. We'll review your application and reach out within 5–7 business days. Questions? Email <a href="mailto:contact@protospark.org" style="color: rgba(255,255,255,0.75);">contact@protospark.org</a>.
+            <!-- Replace VOLUNTEER_FORM_ID below with your actual Formspree form ID.
+                 Get one free at https://formspree.io — create a new form and copy the ID. -->
+          </p>
+        </div>
+
+        <!-- Replace VOLUNTEER_FORM_ID with your actual Formspree form ID -->
+        <form
+          class="leadership-form"
+          id="leadership-application-form"
+          action="https://formspree.io/f/VOLUNTEER_FORM_ID"
+          method="POST"
+          novalidate
+        >
+          <!-- Basic Info -->
+          <div class="form-section-heading">Basic Information</div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="vol-name">Full Name <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="vol-name"
+                name="full_name"
+                placeholder="Your full name"
+                required
+                autocomplete="name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="vol-email">Email Address <span aria-hidden="true">*</span></label>
+              <input
+                type="email"
+                id="vol-email"
+                name="email"
+                placeholder="you@example.com"
+                required
+                autocomplete="email"
+              />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="vol-phone">Phone Number <span aria-hidden="true">*</span></label>
+              <input
+                type="tel"
+                id="vol-phone"
+                name="phone"
+                placeholder="+1 (555) 000-0000"
+                required
+                autocomplete="tel"
+              />
+            </div>
+            <div class="form-group">
+              <label for="vol-region">Region / Country <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="vol-region"
+                name="region"
+                placeholder="e.g. Nigeria, India, Brazil"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="vol-timezone">Time Zone <span aria-hidden="true">*</span></label>
+            <select id="vol-timezone" name="timezone" required>
+              <option value="" disabled selected>Select your time zone</option>
+              <option value="UTC-12:00">UTC−12:00 — Baker Island</option>
+              <option value="UTC-11:00">UTC−11:00 — Samoa</option>
+              <option value="UTC-10:00">UTC−10:00 — Hawaii (HST)</option>
+              <option value="UTC-8:00">UTC−8:00 — Pacific Time (PST)</option>
+              <option value="UTC-7:00">UTC−7:00 — Mountain Time (MST)</option>
+              <option value="UTC-6:00">UTC−6:00 — Central Time (CST)</option>
+              <option value="UTC-5:00">UTC−5:00 — Eastern Time (EST)</option>
+              <option value="UTC-4:00">UTC−4:00 — Atlantic Time / AST</option>
+              <option value="UTC-3:00">UTC−3:00 — Brazil / Buenos Aires</option>
+              <option value="UTC+0:00">UTC+0:00 — London / Dublin / Accra (GMT)</option>
+              <option value="UTC+1:00">UTC+1:00 — Central European / West Africa (CET/WAT)</option>
+              <option value="UTC+2:00">UTC+2:00 — Eastern Europe / South Africa (EET/CAT)</option>
+              <option value="UTC+3:00">UTC+3:00 — East Africa / Moscow (EAT)</option>
+              <option value="UTC+4:00">UTC+4:00 — Dubai / Baku (GST)</option>
+              <option value="UTC+5:00">UTC+5:00 — Pakistan (PKT)</option>
+              <option value="UTC+5:30">UTC+5:30 — India (IST)</option>
+              <option value="UTC+6:00">UTC+6:00 — Bangladesh (BST)</option>
+              <option value="UTC+7:00">UTC+7:00 — Indochina / Jakarta (ICT)</option>
+              <option value="UTC+8:00">UTC+8:00 — China / Philippines / Singapore (CST)</option>
+              <option value="UTC+9:00">UTC+9:00 — Japan / Korea (JST)</option>
+              <option value="UTC+10:00">UTC+10:00 — Australia East (AEST)</option>
+              <option value="UTC+12:00">UTC+12:00 — New Zealand (NZST)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="vol-languages">Languages You Speak <span aria-hidden="true">*</span></label>
+            <input
+              type="text"
+              id="vol-languages"
+              name="languages"
+              placeholder="e.g. English, Hindi, Spanish"
+              required
+            />
+          </div>
+
+          <!-- Coding Background -->
+          <div class="form-section-heading">Scratch &amp; Coding Background</div>
+
+          <div class="form-group">
+            <label>Select all that apply to you</label>
+            <div class="checkbox-group">
+              <label class="checkbox-item">
+                <input type="checkbox" name="background[]" value="taught_coding" />
+                <span>I've taught coding or Scratch to others</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="background[]" value="competed" />
+                <span>I've competed in coding competitions</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="background[]" value="scratch_projects" />
+                <span>I've created Scratch projects</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="background[]" value="other_cs" />
+                <span>I have other CS / programming experience</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="vol-experience">Tell us about your coding or teaching experience <span aria-hidden="true">*</span></label>
+            <textarea
+              id="vol-experience"
+              name="coding_experience"
+              placeholder="Describe any relevant coding, teaching, or mentorship experience you have. It's okay if you're just getting started!"
+              required
+            ></textarea>
+          </div>
+
+          <!-- Leadership Questions -->
+          <div class="form-section-heading">Leadership &amp; Motivation</div>
+
+          <div class="form-group">
+            <label for="vol-why">Why do you want to be a regional leader? <span aria-hidden="true">*</span></label>
+            <textarea
+              id="vol-why"
+              name="why_leader"
+              placeholder="Tell us what motivates you to bring ProtoSpark to your community and why this role is meaningful to you."
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="vol-leadership">Describe a time you showed leadership in a challenging situation <span aria-hidden="true">*</span></label>
+            <textarea
+              id="vol-leadership"
+              name="leadership_example"
+              placeholder="Walk us through a situation where you took initiative, led others, or navigated a difficult challenge. What happened, and what did you learn?"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-success" id="volunteer-form-success" role="alert" aria-live="polite">
+            <h4>✅ Application Submitted!</h4>
+            <p>Thank you for applying to lead a ProtoSpark chapter! We'll review your application and get back to you within 5–7 business days. Questions? Email <a href="mailto:contact@protospark.org">contact@protospark.org</a>.</p>
+          </div>
+          <div class="form-error" id="volunteer-form-error" role="alert" aria-live="polite"></div>
+
+          <button type="submit" class="btn btn-primary full-width">Submit Application →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── FOOTER ───────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="ProtoSpark Home">
+            <img src="images/logo.png" alt="ProtoSpark logo" class="logo-img" />
+            <span class="logo-fallback" aria-hidden="true">⚡</span>
+            <span class="logo-text">Proto<span class="logo-accent">Spark</span></span>
+          </a>
+          <p>A 501(c)(3) nonprofit teaching Scratch coding to children worldwide — free and accessible for every child.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="TikTok">🎵</a>
+            <a href="#" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h5>Camp</h5>
+            <a href="summer-camp.html">Summer 2026</a>
+            <a href="summer-camp.html#schedule">Schedule</a>
+            <a href="summer-camp.html#register">Register</a>
+          </div>
+          <div class="footer-col">
+            <h5>Organization</h5>
+            <a href="volunteer.html">Volunteer</a>
+            <a href="#apply">Apply</a>
+            <a href="team.html">Our Team</a>
+          </div>
+          <div class="footer-col">
+            <h5>Contact</h5>
+            <a href="mailto:contact@protospark.org">contact@protospark.org</a>
+            <a href="summer-camp.html#faq">FAQ</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 ProtoSpark &nbsp;·&nbsp; 501(c)(3) Nonprofit</span>
+        <span class="mono" style="font-size:0.78rem; opacity:0.4;">Built with ❤️ by high schoolers</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

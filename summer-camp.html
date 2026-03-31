@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summer Camp 2026 — ProtoSpark</title>
+  <meta name="description" content="Register your child for ProtoSpark Summer Camp 2026 — August 2–8, free virtual Scratch coding camp for ages 6–13." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="camp">
+
+  <!-- ───────────────── FLOATING NAV ───────────────── -->
+  <header class="nav-wrapper" role="banner">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="index.html" class="logo" aria-label="ProtoSpark Home">
+        <img src="images/logo.png" alt="ProtoSpark logo" class="logo-img" />
+        <span class="logo-fallback" aria-hidden="true">⚡</span>
+        <span class="logo-text">Proto<span class="logo-accent">Spark</span></span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" data-nav="home">Home</a></li>
+        <li><a href="summer-camp.html" data-nav="camp">Summer Camp</a></li>
+        <li><a href="volunteer.html" data-nav="volunteer">Volunteer</a></li>
+        <li><a href="team.html" data-nav="team">Our Team</a></li>
+      </ul>
+      <a href="#register" class="btn btn-nav">Register Now →</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile nav panel -->
+  <div class="nav-mobile-panel" id="mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="summer-camp.html">Summer Camp</a>
+    <a href="volunteer.html">Volunteer</a>
+    <a href="team.html">Our Team</a>
+    <a href="#register" class="btn-nav-mobile">Register Now →</a>
+  </div>
+
+  <!-- ───────────────── PAGE HERO ───────────────── -->
+  <section class="page-hero" aria-labelledby="camp-hero-heading">
+    <div class="page-hero-inner">
+      <div class="page-hero-label">Upcoming Event</div>
+      <h1 id="camp-hero-heading">Summer Camp 2026</h1>
+      <p>Five days of Scratch coding, creativity, and collaboration — completely free, completely virtual, open to children ages 6–13 worldwide.</p>
+    </div>
+  </section>
+
+  <!-- ───────────────── CAMP DETAILS ───────────────── -->
+  <section class="camp-page section" aria-labelledby="details-heading">
+    <div class="container">
+      <div class="section-label">Camp Details</div>
+      <h2 class="section-title" id="details-heading">
+        Everything You Need <span class="highlight-purple">to Know</span>
+      </h2>
+
+      <div class="camp-details-grid">
+        <!-- Left: meta info cards -->
+        <div class="camp-meta-cards">
+          <div class="camp-meta-card animate-slide-left">
+            <span class="camp-meta-icon" aria-hidden="true">📅</span>
+            <div>
+              <strong>Dates</strong>
+              <p>August 2 – August 8, 2026 (5 days of camp sessions)</p>
+            </div>
+          </div>
+          <div class="camp-meta-card animate-slide-left">
+            <span class="camp-meta-icon" aria-hidden="true">💻</span>
+            <div>
+              <strong>Format</strong>
+              <p>100% virtual via Zoom — join from anywhere in the world</p>
+            </div>
+          </div>
+          <div class="camp-meta-card animate-slide-left">
+            <span class="camp-meta-icon" aria-hidden="true">👦</span>
+            <div>
+              <strong>Who Can Join</strong>
+              <p>Children ages 6–13. All skill levels welcome — no coding experience needed.</p>
+            </div>
+          </div>
+          <div class="camp-meta-card animate-slide-left">
+            <span class="camp-meta-icon" aria-hidden="true">💰</span>
+            <div>
+              <strong>Cost</strong>
+              <p>Completely free — ProtoSpark is a 501(c)(3) nonprofit and always will be.</p>
+            </div>
+          </div>
+          <div class="camp-meta-card animate-slide-left">
+            <span class="camp-meta-icon" aria-hidden="true">🛠️</span>
+            <div>
+              <strong>What You Need</strong>
+              <p>A device (computer or tablet) with internet access and a free Scratch account at scratch.mit.edu.</p>
+            </div>
+          </div>
+          <a href="#register" class="btn btn-primary mt-1">Register Your Child Now →</a>
+        </div>
+
+        <!-- Right: dark schedule card -->
+        <div class="camp-schedule animate-slide-right" id="schedule">
+          <div class="schedule-header">
+            <span class="mono">// 5-Day Camp Schedule</span>
+          </div>
+          <div class="schedule-day">
+            <span class="day-badge">Day 1</span>
+            <div class="day-content">
+              <strong>Basics About Scratch</strong>
+              <p>Scratch lesson — backdrops, sprites, motion, and events. Build your first project from scratch (pun intended).</p>
+            </div>
+          </div>
+          <div class="schedule-day">
+            <span class="day-badge">Day 2</span>
+            <div class="day-content">
+              <strong>Finishing Basics + Capstone Introduction</strong>
+              <p>Scratch lesson — wrap up core concepts, then get introduced to your capstone project brief.</p>
+            </div>
+          </div>
+          <div class="schedule-day">
+            <span class="day-badge">Day 3</span>
+            <div class="day-content">
+              <strong>Capstone Working Time</strong>
+              <p>Dedicated build session — start bringing your capstone project to life with instructor support.</p>
+            </div>
+          </div>
+          <div class="schedule-day">
+            <span class="day-badge">Day 4</span>
+            <div class="day-content">
+              <strong>Capstone Working Time</strong>
+              <p>Questions, interactive activities, and continued building. Instructors available for one-on-one help.</p>
+            </div>
+          </div>
+          <div class="schedule-day">
+            <span class="day-badge">Day 5</span>
+            <div class="day-content">
+              <strong>Capstone Wrap-Up &amp; Presentations</strong>
+              <p>Finishing touches on projects, then capstone presentations — showcase your work to the whole camp!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── REGISTRATION FORM ───────────────── -->
+  <section class="register-section section" id="register" aria-labelledby="register-heading">
+    <div class="container">
+      <div class="section-label">Registration</div>
+      <h2 class="section-title" id="register-heading">
+        Register Your <span class="highlight-purple">Child</span>
+      </h2>
+      <p class="section-sub">
+        Fill out the form below to reserve your child's spot in ProtoSpark Summer Camp 2026. Spaces are limited — register early!
+      </p>
+
+      <div class="register-card animate-fade-up">
+        <div class="register-card-header">
+          <h3>Student Registration Form</h3>
+          <p>
+            ProtoSpark is a 501(c)(3) nonprofit dedicated to making coding education free and accessible to every child worldwide. Summer Camp 2026 runs August 2–8 and consists of five virtual sessions via Zoom. Classes are grouped by age so every student learns at the right pace. Once registered, we'll follow up with Zoom links and any additional details before camp begins.
+            <!-- Replace STUDENT_FORM_ID below with your actual Formspree form ID.
+                 Get one free at https://formspree.io — create a new form and copy the ID. -->
+          </p>
+        </div>
+
+        <!-- Replace STUDENT_FORM_ID with your actual Formspree form ID -->
+        <form
+          class="register-form"
+          id="student-registration-form"
+          action="https://formspree.io/f/STUDENT_FORM_ID"
+          method="POST"
+          novalidate
+        >
+          <div class="form-row">
+            <div class="form-group">
+              <label for="parent-name">Parent / Guardian Full Name <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="parent-name"
+                name="parent_name"
+                placeholder="e.g. Jane Smith"
+                required
+                autocomplete="name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="student-name">Student's Full Name <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="student-name"
+                name="student_name"
+                placeholder="e.g. Alex Smith"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-method">Preferred Contact Method <span aria-hidden="true">*</span></label>
+            <select id="contact-method" name="preferred_contact" required>
+              <option value="" disabled selected>Select a method</option>
+              <option value="Email">Email</option>
+              <option value="Phone">Phone</option>
+              <option value="Both">Both Email &amp; Phone</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="parent-email">Email Address <span aria-hidden="true">*</span></label>
+              <input
+                type="email"
+                id="parent-email"
+                name="email"
+                placeholder="you@example.com"
+                required
+                autocomplete="email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="parent-phone">
+                Phone Number
+                <span class="optional">(optional)</span>
+              </label>
+              <input
+                type="tel"
+                id="parent-phone"
+                name="phone"
+                placeholder="+1 (555) 000-0000"
+                autocomplete="tel"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="age-group">Student's Age Group <span aria-hidden="true">*</span></label>
+            <select id="age-group" name="age_group" required>
+              <option value="" disabled selected>Select age group</option>
+              <option value="Ages 6-8">Ages 6–8</option>
+              <option value="Ages 9-11">Ages 9–11</option>
+              <option value="Ages 12-13">Ages 12–13</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="timing-questions">
+              Questions or requests about class timing
+              <span class="optional">(optional)</span>
+            </label>
+            <textarea
+              id="timing-questions"
+              name="timing_questions"
+              placeholder="e.g. We're in UTC+5:30 — will sessions be available asynchronously? Any scheduling conflicts to note?"
+            ></textarea>
+          </div>
+
+          <div class="form-success" id="student-form-success" role="alert" aria-live="polite">
+            <h4>🎉 Registration Received!</h4>
+            <p>Thank you for registering your child for ProtoSpark Summer Camp 2026! We'll be in touch soon with details and Zoom links. Questions? Email <a href="mailto:contact@protospark.org">contact@protospark.org</a>.</p>
+          </div>
+          <div class="form-error" id="student-form-error" role="alert" aria-live="polite"></div>
+
+          <button type="submit" class="btn btn-primary full-width">Register My Child →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── FAQ ───────────────── -->
+  <section class="faq section" id="faq" aria-labelledby="faq-heading">
+    <div class="container container-narrow">
+      <div class="section-label">Questions</div>
+      <h2 class="section-title" id="faq-heading">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details class="faq-item animate-fade-up">
+          <summary>Is the camp really free?</summary>
+          <p>Yes — 100% free for all students. ProtoSpark is a registered 501(c)(3) nonprofit and our mission is to remove every barrier to CS education.</p>
+        </details>
+        <details class="faq-item animate-fade-up">
+          <summary>What ages can participate?</summary>
+          <p>Children ages 6–13. Students are placed in age-appropriate groups (6–8, 9–11, and 12–13) so the pace and content is right for them.</p>
+        </details>
+        <details class="faq-item animate-fade-up">
+          <summary>Does my child need any coding experience?</summary>
+          <p>Not at all! ProtoSpark is designed for beginners. Day 1 starts with the absolute basics of Scratch and we build from there.</p>
+        </details>
+        <details class="faq-item animate-fade-up">
+          <summary>What does my child need to participate?</summary>
+          <p>A device (computer, tablet, or Chromebook) with internet access, Zoom installed, and a free Scratch account at scratch.mit.edu. No paid software needed.</p>
+        </details>
+        <details class="faq-item animate-fade-up">
+          <summary>What timezone are the sessions in?</summary>
+          <p>Live sessions are scheduled to accommodate the largest number of global participants. All sessions are recorded for asynchronous viewing, and we'll share exact times when you register.</p>
+        </details>
+        <details class="faq-item animate-fade-up">
+          <summary>What if my child doesn't speak English?</summary>
+          <p>We are actively working to translate curriculum materials into multiple languages. When registering, please note your preferred language in the timing/questions field and we'll do our best to accommodate.</p>
+        </details>
+        <details class="faq-item animate-fade-up">
+          <summary>What is the capstone project?</summary>
+          <p>The capstone is a student-made interactive Scratch project — a game, story, or animation — that students build during Days 3–5 and present on the final day of camp. It's the highlight of the whole experience!</p>
+        </details>
+        <details class="faq-item animate-fade-up">
+          <summary>How do I contact ProtoSpark?</summary>
+          <p>Email us at <a href="mailto:contact@protospark.org" style="color: var(--purple); font-weight: 600;">contact@protospark.org</a> — we typically respond within 1–2 business days.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── FOOTER ───────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="ProtoSpark Home">
+            <img src="images/logo.png" alt="ProtoSpark logo" class="logo-img" />
+            <span class="logo-fallback" aria-hidden="true">⚡</span>
+            <span class="logo-text">Proto<span class="logo-accent">Spark</span></span>
+          </a>
+          <p>A 501(c)(3) nonprofit teaching Scratch coding to children worldwide — free and accessible for every child.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="TikTok">🎵</a>
+            <a href="#" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h5>Camp</h5>
+            <a href="summer-camp.html">Summer 2026</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#register">Register</a>
+          </div>
+          <div class="footer-col">
+            <h5>Organization</h5>
+            <a href="volunteer.html">Volunteer</a>
+            <a href="volunteer.html#apply">Apply</a>
+            <a href="team.html">Our Team</a>
+          </div>
+          <div class="footer-col">
+            <h5>Contact</h5>
+            <a href="mailto:contact@protospark.org">contact@protospark.org</a>
+            <a href="#faq">FAQ</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 ProtoSpark &nbsp;·&nbsp; 501(c)(3) Nonprofit</span>
+        <span class="mono" style="font-size:0.78rem; opacity:0.4;">Built with ❤️ by high schoolers</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
