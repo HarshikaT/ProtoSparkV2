@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProtoSpark — Igniting Young Coders Worldwide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ───────────────── NAV ───────────────── -->
+  <header class="nav-wrapper">
+    <nav class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">Proto<span class="logo-accent">Spark</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#camp">Camp 2026</a></li>
+        <li><a href="#learn">Curriculum</a></li>
+        <li><a href="#chapters">Chapters</a></li>
+        <li><a href="#join">Get Involved</a></li>
+      </ul>
+      <a href="#join" class="btn btn-nav">Join Now</a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ───────────────── HERO ───────────────── -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        501(c)(3) Nonprofit &nbsp;·&nbsp; Est. by High Schoolers
+      </div>
+      <h1 class="hero-title">
+        We <span class="highlight-pink">Ignite</span> Young<br />
+        Coders <span class="highlight-teal">Worldwide</span>
+      </h1>
+      <p class="hero-sub">
+        ProtoSpark is a free international virtual coding camp teaching children ages 7–13 the fundamentals of programming through <strong>Scratch</strong> — no experience needed, no barriers, just sparks.
+      </p>
+      <div class="hero-cta">
+        <a href="#join" class="btn btn-primary">Register as a Student</a>
+        <a href="#join" class="btn btn-ghost">Volunteer / Teach</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">300<span class="stat-plus">+</span></span>
+          <span class="stat-label">Students Taught</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100<span class="stat-plus">+</span></span>
+          <span class="stat-label">Hours of Teaching</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">🌍</span>
+          <span class="stat-label">Multiple Countries</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="scratch-window">
+        <div class="window-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="window-title">protospark_project.sb3</span>
+        </div>
+        <div class="window-body">
+          <div class="code-block purple">when 🏁 clicked</div>
+          <div class="code-block blue">move <span class="code-val">10</span> steps</div>
+          <div class="code-block blue">turn ↻ <span class="code-val">15</span> degrees</div>
+          <div class="code-block yellow">if <span class="code-val">touching edge?</span> then</div>
+          <div class="code-block pink indent">play sound <span class="code-val">Meow</span></div>
+          <div class="code-block yellow">end</div>
+          <div class="code-block teal">broadcast <span class="code-val">spark!</span></div>
+        </div>
+      </div>
+      <div class="floating-tag tag-1">🐱 Sprites</div>
+      <div class="floating-tag tag-2">🎵 Sounds</div>
+      <div class="floating-tag tag-3">⚡ Events</div>
+      <div class="floating-tag tag-4">🌍 Global</div>
+    </div>
+  </section>
+
+  <!-- ───────────────── ABOUT ───────────────── -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">Our Mission</div>
+      <h2 class="section-title">Code Should Have <span class="highlight-purple">No Borders</span></h2>
+      <p class="section-sub">
+        ProtoSpark was founded by high school students who believe every child — regardless of country, language, or background — deserves access to quality computer science education. We run free, virtual coding camps that are fun, accessible, and impactful.
+      </p>
+      <div class="about-cards">
+        <div class="about-card card-pink">
+          <div class="card-icon">🎯</div>
+          <h3>Free &amp; Accessible</h3>
+          <p>100% free for students. We work to translate curriculum into multiple languages so no child is left behind.</p>
+        </div>
+        <div class="about-card card-teal">
+          <div class="card-icon">🌐</div>
+          <h3>International Reach</h3>
+          <p>We organize chapters country-by-country, led by local volunteer leaders who bridge language and time-zone gaps.</p>
+        </div>
+        <div class="about-card card-purple">
+          <div class="card-icon">🚀</div>
+          <h3>Student-Led</h3>
+          <p>Founded and run entirely by high schoolers — passionate about giving back and building real leadership experience.</p>
+        </div>
+        <div class="about-card card-yellow">
+          <div class="card-icon">💡</div>
+          <h3>Hands-On Learning</h3>
+          <p>Students build real interactive projects using Scratch — games, animations, stories — by the end of camp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── CAMP 2026 ───────────────── -->
+  <section class="camp section" id="camp">
+    <div class="container">
+      <div class="section-label">Upcoming Event</div>
+      <h2 class="section-title">Summer Camp <span class="highlight-pink">2026</span></h2>
+      <div class="camp-grid">
+        <div class="camp-info">
+          <div class="camp-detail">
+            <span class="camp-icon">📅</span>
+            <div>
+              <strong>Dates</strong>
+              <p>August 2nd – August 8th, 2026</p>
+            </div>
+          </div>
+          <div class="camp-detail">
+            <span class="camp-icon">💻</span>
+            <div>
+              <strong>Format</strong>
+              <p>100% Virtual via Zoom — join from anywhere on Earth</p>
+            </div>
+          </div>
+          <div class="camp-detail">
+            <span class="camp-icon">👦</span>
+            <div>
+              <strong>Who Can Join</strong>
+              <p>Children ages 7–13, all skill levels welcome — no coding experience needed</p>
+            </div>
+          </div>
+          <div class="camp-detail">
+            <span class="camp-icon">💰</span>
+            <div>
+              <strong>Cost</strong>
+              <p>Completely free, forever</p>
+            </div>
+          </div>
+          <div class="camp-detail">
+            <span class="camp-icon">🗣️</span>
+            <div>
+              <strong>Languages</strong>
+              <p>Instruction in English with translated materials — more languages coming with chapter leaders</p>
+            </div>
+          </div>
+          <a href="#join" class="btn btn-primary mt-1">Register for Summer 2026</a>
+        </div>
+        <div class="camp-schedule">
+          <div class="schedule-header">
+            <span class="mono">// Camp Schedule Overview</span>
+          </div>
+          <div class="schedule-day">
+            <span class="day-badge">Day 1–2</span>
+            <div class="day-content">
+              <strong>Scratch Foundations</strong>
+              <p>Backdrops, Sprites, Motion, Sounds &amp; Events</p>
+            </div>
+          </div>
+          <div class="schedule-day">
+            <span class="day-badge">Day 3</span>
+            <div class="day-content">
+              <strong>Sensing &amp; Logic</strong>
+              <p>Conditionals, sensing blocks, interactive projects</p>
+            </div>
+          </div>
+          <div class="schedule-day">
+            <span class="day-badge">Day 4–5</span>
+            <div class="day-content">
+              <strong>Capstone Project</strong>
+              <p>Team-based interactive Scratch project build</p>
+            </div>
+          </div>
+          <div class="schedule-day">
+            <span class="day-badge">Day 6</span>
+            <div class="day-content">
+              <strong>Presentations</strong>
+              <p>Showcase projects, celebrate creativity &amp; coding skills</p>
+            </div>
+          </div>
+          <div class="schedule-day">
+            <span class="day-badge">Day 7</span>
+            <div class="day-content">
+              <strong>Closing Ceremony</strong>
+              <p>Awards, community celebration, what's next</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── CURRICULUM ───────────────── -->
+  <section class="learn section" id="learn">
+    <div class="container">
+      <div class="section-label">What Students Learn</div>
+      <h2 class="section-title">From <span class="highlight-teal">Zero</span> to <span class="highlight-purple">Project</span></h2>
+      <p class="section-sub">Our curriculum is built around Scratch — MIT's free visual coding platform — designed so any kid can start building on Day 1.</p>
+      <div class="learn-grid">
+        <div class="learn-card">
+          <div class="learn-icon" style="background: var(--purple-light);">🖼️</div>
+          <h4>Backdrops</h4>
+          <p>Create and customize scene backgrounds. Learn how backdrops trigger code and tell stories.</p>
+        </div>
+        <div class="learn-card">
+          <div class="learn-icon" style="background: var(--pink-light);">🐱</div>
+          <h4>Sprites &amp; Costumes</h4>
+          <p>Add characters, paint your own, upload images, and animate with costume switching.</p>
+        </div>
+        <div class="learn-card">
+          <div class="learn-icon" style="background: var(--teal-light);">💨</div>
+          <h4>Motion &amp; Animation</h4>
+          <p>Move, turn, glide, and bounce sprites around the stage with motion blocks.</p>
+        </div>
+        <div class="learn-card">
+          <div class="learn-icon" style="background: var(--yellow-light);">🎵</div>
+          <h4>Sounds</h4>
+          <p>Add audio clips, control volume and pitch, layer sounds with code for rich experiences.</p>
+        </div>
+        <div class="learn-card">
+          <div class="learn-icon" style="background: var(--purple-light);">⚡</div>
+          <h4>Events</h4>
+          <p>Use "when clicked" and "when key pressed" to make projects interactive and responsive.</p>
+        </div>
+        <div class="learn-card">
+          <div class="learn-icon" style="background: var(--pink-light);">🤔</div>
+          <h4>Sensing &amp; Logic</h4>
+          <p>Detect collisions, ask questions, use conditionals — the building blocks of real programming.</p>
+        </div>
+        <div class="learn-card capstone-card" style="grid-column: span 2;">
+          <div class="learn-icon" style="background: var(--teal-light);">🏆</div>
+          <h4>Capstone Project</h4>
+          <p>In teams of four, students combine everything they've learned to build a unique interactive project — a game, story, or animation. They present it to the whole camp on the final day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── CHAPTERS / GLOBAL ───────────────── -->
+  <section class="chapters section" id="chapters">
+    <div class="container">
+      <div class="section-label">Global Organization</div>
+      <h2 class="section-title">One Chapter. <span class="highlight-pink">Every Country.</span></h2>
+      <p class="section-sub">
+        ProtoSpark scales internationally through a chapter system — one chapter per country, each led by a local Chapter Leader who bridges language, time zone, and cultural gaps.
+      </p>
+
+      <div class="chapters-layout">
+        <div class="chapter-model">
+          <h3 class="mono">// How Chapters Work</h3>
+          <div class="chapter-step">
+            <span class="step-num">01</span>
+            <div>
+              <strong>Local Chapter Leader</strong>
+              <p>A volunteer in each country runs their chapter, recruits local students, and coordinates with the global team on scheduling.</p>
+            </div>
+          </div>
+          <div class="chapter-step">
+            <span class="step-num">02</span>
+            <div>
+              <strong>Language Bridging</strong>
+              <p>Chapter leaders translate instructions and check-ins into their local language. Core curriculum materials are translated before camp begins.</p>
+            </div>
+          </div>
+          <div class="chapter-step">
+            <span class="step-num">03</span>
+            <div>
+              <strong>Time Zone Management</strong>
+              <p>Sessions are recorded and posted for asynchronous viewing. Live sessions are scheduled to accommodate the most students; chapter leaders run supplemental local sessions where needed.</p>
+            </div>
+          </div>
+          <div class="chapter-step">
+            <span class="step-num">04</span>
+            <div>
+              <strong>Centralized Management</strong>
+              <p>All chapters coordinate via shared tools (Discord, Google Workspace). Standups twice a week keep the global team aligned.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="chapter-requirements">
+          <div class="req-card">
+            <h3>Become a Chapter Leader</h3>
+            <p class="req-sub">Leadership roles are open to teens and young adults worldwide.</p>
+            <ul class="req-list">
+              <li><span class="req-check">✓</span> Recruit at least 3 students from your country</li>
+              <li><span class="req-check">✓</span> Bilingual: English + your local language</li>
+              <li><span class="req-check">✓</span> Basic knowledge of Scratch (or willing to learn)</li>
+              <li><span class="req-check">✓</span> Attend bi-weekly standups (Tue &amp; Thu, 9 PM ET)</li>
+              <li><span class="req-check">✓</span> Passionate about making CS education accessible</li>
+            </ul>
+            <a href="#join" class="btn btn-primary mt-1">Apply as Chapter Leader</a>
+          </div>
+          <div class="globe-visual">
+            <div class="globe-ring ring-1"></div>
+            <div class="globe-ring ring-2"></div>
+            <div class="globe-ring ring-3"></div>
+            <div class="globe-center">🌍</div>
+            <div class="chapter-pin pin-1">🇺🇸</div>
+            <div class="chapter-pin pin-2">🇮🇳</div>
+            <div class="chapter-pin pin-3">🇧🇷</div>
+            <div class="chapter-pin pin-4">🇳🇬</div>
+            <div class="chapter-pin pin-5">🇵🇭</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── HOW WE RECRUIT ───────────────── -->
+  <section class="recruit section" id="recruit">
+    <div class="container">
+      <div class="section-label">Outreach Strategy</div>
+      <h2 class="section-title">How We Reach <span class="highlight-teal">Every Corner</span></h2>
+      <p class="section-sub">We use a mix of digital and community outreach to reach students and volunteers everywhere — from TikTok to WhatsApp groups to local community boards.</p>
+      <div class="recruit-grid">
+        <div class="recruit-card">
+          <span class="recruit-icon">📱</span>
+          <h4>Social Media</h4>
+          <p>We're on Instagram, TikTok, YouTube, and Facebook. Volunteers create authentic content that reaches young coders organically.</p>
+        </div>
+        <div class="recruit-card">
+          <span class="recruit-icon">💬</span>
+          <h4>WhatsApp &amp; Community Groups</h4>
+          <p>Chapter leaders share information in local WhatsApp groups, community Facebook groups, and parent networks.</p>
+        </div>
+        <div class="recruit-card">
+          <span class="recruit-icon">🪧</span>
+          <h4>Physical Outreach</h4>
+          <p>Posters in libraries, community centers, mosques, churches, temples — anywhere families gather.</p>
+        </div>
+        <div class="recruit-card">
+          <span class="recruit-icon">🎓</span>
+          <h4>School Partnerships</h4>
+          <p>We partner with after-school programs and educators who share our flyers with students directly.</p>
+        </div>
+        <div class="recruit-card">
+          <span class="recruit-icon">🌐</span>
+          <h4>International DMs</h4>
+          <p>We reach out directly to students in international communities looking for passion projects and volunteering opportunities.</p>
+        </div>
+        <div class="recruit-card">
+          <span class="recruit-icon">🏢</span>
+          <h4>Nonprofit Network</h4>
+          <p>As a registered 501(c)(3), we tap into nonprofit directories and grant networks to amplify our reach and credibility.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── JOIN ───────────────── -->
+  <section class="join section" id="join">
+    <div class="container">
+      <div class="section-label">Get Involved</div>
+      <h2 class="section-title">Ready to <span class="highlight-yellow">Spark</span> Something?</h2>
+      <div class="join-cards">
+
+        <div class="join-card student-card">
+          <div class="join-card-header">
+            <span class="join-emoji">🧒</span>
+            <h3>I'm a Student</h3>
+            <p>Ages 7–13, anywhere in the world</p>
+          </div>
+          <ul class="join-list">
+            <li>Free virtual camp (August 2–8, 2026)</li>
+            <li>No prior coding experience needed</li>
+            <li>Build your own Scratch project</li>
+            <li>Meet kids from around the world</li>
+            <li>Certificate of completion</li>
+          </ul>
+          <form class="join-form" id="student-form">
+            <input type="text" placeholder="Student's First &amp; Last Name" required />
+            <input type="email" placeholder="Parent / Guardian Email" required />
+            <select required>
+              <option value="" disabled selected>Country</option>
+              <option>United States</option>
+              <option>India</option>
+              <option>Nigeria</option>
+              <option>Philippines</option>
+              <option>Brazil</option>
+              <option>United Kingdom</option>
+              <option>Canada</option>
+              <option>Other</option>
+            </select>
+            <select required>
+              <option value="" disabled selected>English Proficiency</option>
+              <option>Fluent</option>
+              <option>Intermediate</option>
+              <option>Beginner</option>
+              <option>None</option>
+            </select>
+            <input type="text" placeholder="Preferred Language (if not English)" />
+            <button type="submit" class="btn btn-primary full-width">Register My Child →</button>
+          </form>
+        </div>
+
+        <div class="join-card volunteer-card">
+          <div class="join-card-header">
+            <span class="join-emoji">🙋</span>
+            <h3>I Want to Volunteer</h3>
+            <p>Teachers, chapter leaders &amp; mentors</p>
+          </div>
+          <ul class="join-list">
+            <li>Lead a country chapter</li>
+            <li>Teach or assist sessions</li>
+            <li>Translate curriculum materials</li>
+            <li>Build real nonprofit leadership experience</li>
+            <li>Official role with a registered 501(c)(3)</li>
+          </ul>
+          <form class="join-form" id="volunteer-form">
+            <input type="text" placeholder="Your Full Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <select required>
+              <option value="" disabled selected>Your Country</option>
+              <option>United States</option>
+              <option>India</option>
+              <option>Nigeria</option>
+              <option>Philippines</option>
+              <option>Brazil</option>
+              <option>United Kingdom</option>
+              <option>Canada</option>
+              <option>Other</option>
+            </select>
+            <select required>
+              <option value="" disabled selected>Role of Interest</option>
+              <option>Chapter Leader</option>
+              <option>Teacher / Instructor</option>
+              <option>Mentor / TA</option>
+              <option>Translator</option>
+              <option>Marketing / Social Media</option>
+              <option>Other</option>
+            </select>
+            <input type="text" placeholder="Languages you speak" />
+            <button type="submit" class="btn btn-secondary full-width">Apply to Volunteer →</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── FAQ ───────────────── -->
+  <section class="faq section" id="faq">
+    <div class="container container-narrow">
+      <div class="section-label">Questions</div>
+      <h2 class="section-title">FAQ</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Is the camp really free?</summary>
+          <p>Yes — 100% free for all students. ProtoSpark is a registered 501(c)(3) nonprofit and our mission is to remove every barrier to CS education.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What if my child doesn't speak English?</summary>
+          <p>We are actively working to translate all curriculum materials into multiple languages. Chapter leaders in each country provide instruction in the local language. When registering, indicate your preferred language and we'll connect you with the right chapter.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What timezone are the sessions in?</summary>
+          <p>Live sessions are scheduled to accommodate the largest number of participants globally. All sessions are recorded and available for asynchronous viewing. Chapter leaders also run local timezone-friendly sessions.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What do students need to participate?</summary>
+          <p>A device (computer, tablet, or Chromebook) with internet access and a free Scratch account at scratch.mit.edu. No downloads or paid software required.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can my teen volunteer even if they're not a coding expert?</summary>
+          <p>Absolutely. Chapter leaders need to be willing to learn Scratch, not already know it. We provide training and all curriculum materials before camp starts.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How do I start a chapter in my country?</summary>
+          <p>Fill out the volunteer form above and select "Chapter Leader." Requirements: recruit 3+ students from your country, be bilingual (English + local language), and attend bi-weekly standups. We'll reach out with next steps.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is ProtoSpark a real nonprofit?</summary>
+          <p>Yes! ProtoSpark is in the process of finalizing its 501(c)(3) registration with the IRS. All organizational records and leadership structure are in place.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── FOOTER ───────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">Proto<span class="logo-accent">Spark</span></span>
+          </a>
+          <p>A 501(c)(3) nonprofit founded by high school students. Teaching Scratch to children worldwide — for free.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="TikTok">🎵</a>
+            <a href="#" aria-label="YouTube">▶️</a>
+            <a href="#" aria-label="Facebook">👥</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h5>Camp</h5>
+            <a href="#camp">Summer 2026</a>
+            <a href="#learn">Curriculum</a>
+            <a href="#join">Register</a>
+          </div>
+          <div class="footer-col">
+            <h5>Organization</h5>
+            <a href="#about">About Us</a>
+            <a href="#chapters">Chapters</a>
+            <a href="#join">Volunteer</a>
+          </div>
+          <div class="footer-col">
+            <h5>Contact</h5>
+            <a href="mailto:hello@protospark.org">hello@protospark.org</a>
+            <a href="#faq">FAQ</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 ProtoSpark · 501(c)(3) Nonprofit</span>
+        <span class="mono" style="font-size:0.8rem; opacity:0.5;">Built with ❤️ by high schoolers</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
